@@ -3,14 +3,37 @@
 ## AIM:
 
 ## ALGORITHM:
-### Step 1:
-### Step 2:
-### Step 3:
-### Step 4:
-### Step 5:
+Step 1:
+
+import pandas as pd
+Step 2:
+
+open the file in read mode
+Step 3:
+
+print the first 9 and the tail
+Step 4:
+
+print the rows
+Step 5:
+
+print the columns
+
 
 ## PROGRAM:
+```
+#developed by: Nithyaa sri S S
+#reference no: 22008434
+import pandas as pd
+df = pd.read_csv('nba.csv')
+print(df.head(10))
+print(df.tail())
+print("rows",len(df.axes[0]))
+print("columns",len(df.axes[1]))
+```
 
 ## OUTPUT:
+
+
 
 ## RESULT:
